@@ -1,0 +1,38 @@
+/* Global Styles */
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+    font-size: 200%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.page-header {
+	border-bottom: 0;
+	margin-top: 0;
+}
+.navbar {
+    background-color: #0077b7;
+}
+/* Notification Styles */
+#flash-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  margin: 0;
+}
+
+.alert-box-fixed {
+  margin: 0 15px 15px 0;
+}
+#footer {
+    background-color: #0077b7;
+    color: #fffffd;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
